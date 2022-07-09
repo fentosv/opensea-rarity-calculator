@@ -1,0 +1,24 @@
+{
+  "name": "opensea-rarity-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "rm -f results/raw/nftlions.json && node index.js",
+    "dom": "node src/dev-tools/dom-checker.js",
+    "trait": "node src/dev-tools/trait-tester.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.9.1",
+    "dotenv": "^16.0.1",
+    "puppeteer": "^10.4.0",
+    "puppeteer-extra": "^3.2.1",
+    "puppeteer-extra-plugin-stealth": "^2.8.1"
+  }
+}
