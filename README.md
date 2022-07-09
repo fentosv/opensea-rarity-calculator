@@ -1,7 +1,7 @@
 > ⚠ I created this repository some time ago, while studying and practising coding. 
 > This is not a real sample of my current coding skills. ;)
 
-# opensea-rarity-checker
+# opensea-rarity-calculator
 
 > Calculates Opensea NFT collections rarity.
 
